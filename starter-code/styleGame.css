@@ -1,0 +1,55 @@
+div.button{
+  display: block;
+  right: 1em;
+  top: 50%;
+}
+input{
+  display: block;
+  margin: 0 auto;
+}
+
+
+div#red{
+  position: relative;
+  display: none;
+  border: 2px solid red;
+  height: 10em;
+  width: 10em;
+  margin: 1em;
+
+}
+
+div#blue{
+  position: relative;
+  display: none;
+  border: 2px solid blue;
+  height: 10em;
+  width: 10em;
+  margin: 1em;
+  top: 10em;
+}
+
+main{
+  position: relative;
+  height: 100vh;
+}
+
+.visable {
+  display: block !important;
+}
+
+#container{
+  margin: 0 auto;
+}
+.h1 {
+  text-align: center;
+
+}
+
+#win{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  
+}
